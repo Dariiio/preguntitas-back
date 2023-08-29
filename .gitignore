@@ -1,0 +1,39 @@
+# Archivos y directorios generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__init__.py
+
+# Entornos virtuales de Python
+venv/
+env/
+env3/
+*.env
+
+# Archivos de registro y archivos temporales
+*.log
+logs/
+*.swp
+.DS_Store
+*.sqlite3
+
+# Archivos generados por Docker
+.dockerignore
+Dockerfile
+*.docker
+*.dockerfile
+
+# Archivos generados por el sistema
+__MACOSX/
+Thumbs.db
+
+# Archivos de entorno (variables de entorno sensibles)
+.env
+
+# Archivos de dependencias
+pip-lock.txt
+requirements.txt
+
+# Directorio de datos
+data/
